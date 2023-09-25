@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/sidemirror_activated_switch"
+        android:defaultValue="false"
+        android:key="sidemirror_Key" />
+    <SwitchPreference
+        android:id="@+id/sidemirror_ringAlarm_switch"
+        android:defaultValue="false"
+        android:key="sidemirror_ring_alarm" />
+
+</PreferenceScreen>

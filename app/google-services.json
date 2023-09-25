@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193047031021",
+    "project_id": "cts-alarm",
+    "storage_bucket": "cts-alarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193047031021:android:5d52e8891b6c2ad3dbf0e4",
+        "android_client_info": {
+          "package_name": "com.example.ctsalarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193047031021-umhudgq9inbr8q586pb6hnmeqh5gnnjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ctsalarm",
+            "certificate_hash": "5d1231485b29309479c41a558d11f369e884a744"
+          }
+        },
+        {
+          "client_id": "193047031021-mopivplo16jpktsf34764qf0vqk8v4js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRndlTp3wCwAm_eYpJO5qEvpDIKLoQYQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193047031021-mopivplo16jpktsf34764qf0vqk8v4js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

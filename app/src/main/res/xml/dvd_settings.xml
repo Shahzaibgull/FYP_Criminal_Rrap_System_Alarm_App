@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:id="@+id/dvd_activated_switch"
+        android:defaultValue="false"
+        android:key="dvd_key" />
+    <SwitchPreference
+        android:id="@+id/dvd_ringAlarm_switch"
+        android:defaultValue="false"
+        android:key="dvd_ring_alarm" />
+
+
+
+</PreferenceScreen>

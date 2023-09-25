@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_outline_home_24"
+            android:title="Anti Theft Alarm"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/wifi"
+            android:icon="@drawable/ic_baseline_wifi_24"
+            android:title="Wifi Detect"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/intruderAlert"
+            android:icon="@drawable/ic_baseline_campaign_24"
+            android:title="Intruder Alert"
+            android:menuCategory="secondary"/>
+
+        <item android:id="@+id/notification"
+            android:icon="@drawable/ic_baseline_notifications_active_24"
+            android:title="Notification"
+            android:menuCategory="secondary"/>
+
+        <item android:title="Others"
+            android:menuCategory="secondary">
+            <menu>
+                <item android:id="@+id/share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"
+                    android:menuCategory="secondary"/>
+
+                <item android:id="@+id/setting"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="Settings"
+                    android:menuCategory="secondary"/>
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

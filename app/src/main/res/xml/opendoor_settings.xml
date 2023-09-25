@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/opendoor_activated_switch"
+        android:defaultValue="false"
+        android:key="opendoor_Key" />
+    <SwitchPreference
+        android:id="@+id/opendoor_ringAlarm_switch"
+        android:defaultValue="false"
+        android:key="opendoor_ring_alarm" />
+
+</PreferenceScreen>

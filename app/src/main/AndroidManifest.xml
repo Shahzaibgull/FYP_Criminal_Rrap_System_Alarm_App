@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ctsalarm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CTSAlarm"
+        tools:targetApi="31">
+
+        <service android:name=".Settings.MyFirebaseService" />
+
+        <activity
+            android:name=".Settings.NodeMCU"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.SideMirror_Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.OpenDoor_Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.MainIntruder_Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.SpeedoMeter_Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.DVD_Alert"
+            android:exported="false" />
+        <activity
+            android:name=".Features_Alarm.MainFeatures"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Settings.SetAlarmTone"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Side_Navigation.Share"
+            android:exported="false" />
+        <activity
+            android:name=".Side_Navigation.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Side_Navigation.Notification"
+            android:exported="false" />
+        <activity
+            android:name=".Side_Navigation.IntruderAlert"
+            android:exported="false" />
+        <activity
+            android:name=".Side_Navigation.WifiDetect"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_Password.Status_Complete"
+            android:exported="true" />
+        <activity
+            android:name=".Forgot_Password.New_Password"
+            android:exported="true" />
+        <activity
+            android:name=".Forgot_Password.PhoneNo_Use"
+            android:exported="true" />
+        <activity
+            android:name=".Sign_Up_In.SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".Sign_Up_In.OTP_Code"
+            android:exported="true" />
+        <activity
+            android:name=".Sign_Up_In.SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".IntroductionScreen"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
